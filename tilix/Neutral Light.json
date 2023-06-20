@@ -1,0 +1,36 @@
+
+{
+  "background-color": "#F0F3F5",
+  "foreground-color": "#0A0E0F",
+  "badge-color": "#ffffff",
+  "comment": "",
+  "cursor-background-color": "#C7AC30",
+  "cursor-foreground-color": "#ffffff",
+  "dim-color": "#000000",
+  "highlight-background-color": "#B1C2CD",
+  "highlight-foreground-color": "#D9DFE3",
+  "name": "Neutral Light",
+  "palette": [
+    "#c3cfd5",
+    "#D2005F",
+    "#3D7800",
+    "#886500",
+    "#0072A1",
+    "#B700CF",
+    "#00786D",
+    "#3E525B",
+    "#879fab",
+    "#AD5000",
+    "#00B1A2",
+    "#5DB100",
+    "#6249FF",
+    "#C7009C",
+    "#007682",
+    "#1f292e"
+  ],
+  "use-badge-color": true,
+  "use-cursor-color": true,
+  "use-dim-color": false,
+  "use-highlight-color": false,
+  "use-theme-colors": false
+}
