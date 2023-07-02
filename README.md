@@ -21,19 +21,19 @@ Compatible with:
   "black": "#1f292e", // COLOR BASE4
   "background": "#0A0E0F",
 
-  "red": "#FF6B95",
-  "yellow": "#C79600",
-  "green": "#5DB100",
-  "cyan": "#00B1A2",
-  "blue": "#00A8EC",
-  "violet": "#E569FF",
+  "red": "#ff6c91",
+  "yellow": "#c59700",
+  "green": "#55b200",
+  "cyan": "#00b1a4",
+  "blue": "#00a7f0",
+  "violet": "#ea65ff",
 
-  "brightRed": "#FB7800", // ORANGE
-  "brightYellow": "#A0A400", // CHARTREUSE
-  "brightGreen": "#00B479", // SPRINGGREEN
-  "brightCyan": "#00AEBF", // DODGERBLUE
-  "brightBlue": "#9990FF", // PURPLE
-  "brightViolet": "#FF5FD0" // MAGENTA
+  "brightRed": "#ff60cc",    // MAGENTA
+  "brightYellow": "#f77b00", // ORANGE
+  "brightGreen": "#9da500",  // CHARTREUSE
+  "brightCyan": "#00b47d",   // SPRINGGREEN
+  "brightBlue": "#00aec1",   // DODGERBLUE
+  "brightViolet": "#9e8eff"  // PURPLE
 }
 ```
 
@@ -50,18 +50,18 @@ Compatible with:
     "black": "#c3cfd5", // COLOR BASE4
     "background": "#F0F3F5",
 
-    "red": "#D2005F",
-    "yellow": "#886500",
-    "green": "#3D7800",
-    "cyan": "#00786D",
-    "blue": "#0072A1",
-    "purple": "#B700CF",
+    "red": "#d3005a",
+    "yellow": "#866600",
+    "green": "#387900",
+    "cyan": "#00786f",
+    "blue": "#0071a4",
+    "purple": "#b800cc",
 
-    "brightRed": "#AD5000", // ORANGE
-    "brightYellow": "#5DB100", // CHARTREUSE
-    "brightGreen": "#00B1A2", // SPRINGGREEN
-    "brightCyan": "#007682", // DODGERBLUE
-    "brightBlue": "#6249FF", // PURPLE
-    "brightPurple": "#C7009C", // MAGENTA
-},
+    "brightRed": "#c80099",    // MAGENTA
+    "brightYellow": "#a95200", // ORANGE
+    "brightGreen": "#6a6f00",  // CHARTREUSE
+    "brightCyan": "#007a53",   //SPRINGGREEN
+    "brightBlue": "#007684",   //DODGERBLUE
+    "brightPurple": "#6c44ff", // PURPLE
+}
 ```

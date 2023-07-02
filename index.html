@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Neutral Theme - zpm-zsh</title>
+    <meta charset="utf-8" />
+    <link href="https://materialshell.carloscuesta.me" rel="canonical" />
+    <meta content="Carlos Cuesta" name="author" />
+    <meta
+      content="MaterialShell is a material design theme for your zsh and terminal. Made by Carlos Cuesta"
+      name="description"
+    />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+
+    <meta
+      content="Material Shell is a material design theme for your zsh and terminal. Made by Carlos Cuesta"
+      name="description"
+    />
+
+    <link href="css/index.css" rel="stylesheet" />
+
+    <style>
+      html,
+      body {
+        font-family: Avenir;
+        width: 100%;
+        height: 100%;
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+      }
+
+      .wrap {
+        max-width: 1040px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4 {
+        margin: 0;
+        margin: 0.5rem 0;
+        color: #2979ff;
+      }
+
+      h1 {
+        font-size: 3.5em;
+        font-weight: 700;
+      }
+
+      h2 {
+        font-size: 1.85em;
+        font-weight: 300;
+      }
+
+      h3 {
+        font-size: 1.75em;
+      }
+
+      h4 {
+        font-size: 1.5em;
+        font-weight: 300;
+        margin-top: 1.75em;
+      }
+
+      p,
+      li {
+        font-size: 18px;
+        font-weight: 300;
+      }
+
+      section {
+        padding: 1rem;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      p {
+        line-height: 1.5em;
+      }
+
+      @media (max-width: 568px) {
+        header {
+          padding: 2em !important;
+        }
+
+        .subtitle {
+          font-size: 1.5em;
+        }
+      }
+
+      .terminal:hover {
+        box-shadow: 0 0.85em 1.65em rgba(0, 0, 0, 0.45);
+      }
+
+      .terminal-light {
+        background-color: #151515;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header style="background-color: #00b1a2" class="px-2 py-6 text-center">
+      <h1 class="title text-white text-6xl my-6">Neutral</h1>
+      <h2 class="subtitle text-white text-3xl my-6">
+        A neutral color theme for your terminal.
+      </h2>
+      <div class="my-6">
+        <a
+          class="m-0 no-underline hover:no-underline inline-block text-white bg-purple-700 hover:bg-purple-800 text-xl font-medium rounded-lg px-5 py-2.5 mb-2"
+          style="background: #0072a1"
+          href="https://github.com/carloscuesta/materialshell"
+          onmousedown="ga('send', 'event', 'Button', 'Click', 'GitHub');"
+          target="_blank"
+          >Download from GitHub</a
+        >
+      </div>
+    </header>
+    <main>
+      <section class="introduction">
+        <div class="wrap">
+          <h3>About</h3>
+          <p class="py-4">
+            <strong>Neutral colors</strong> brings a beautiful color scheme to
+            your terminal that will improve your command line experience. There
+            are two different versions: <strong>Dark</strong> and
+            <strong>Light</strong>, both can be used on OS X, Windows and Linux.
+            You can find a preview of the themes below.
+          </p>
+
+          <div class="grid grid-cols-12 gap-4">
+            <div class="sm:col-12 col-sm-6 mt-1.5 col-span-12 sm:col-span-6">
+              <div
+                class="font-bold p-3 rounded-sm text-sm transition-all hover:shadow-2xl hover:shadow-[#3d780077]"
+                style="background: #0a0e0f"
+              >
+                <div style="color: #f0f3f5">NO COLOR</div>
+
+                <br />
+
+                <div class="flex gap-2">
+                  <div style="color: #c3cfd5">COLOR BASE1</div>
+                  <div style="color: #879fab">COLOR BASE2</div>
+                  <div style="color: #3e525b">COLOR BASE3</div>
+                  <div style="color: #1f292e">COLOR BASE4</div>
+                </div>
+
+                <br />
+
+                <div class="grid grid-cols-12 gap-2">
+                  <div class="col-span-4 text-left" style="color: #ff5fd0">
+                    COLOR ROSE
+                  </div>
+                  <div class="col-span-4 text-center" style="color: #ff6b95">
+                    COLOR RED
+                  </div>
+                  <div class="col-span-4 text-right" style="color: #fb7800">
+                    COLOR ORANGE
+                  </div>
+                </div>
+
+                <div class="grid grid-cols-12 gap-2 my-3">
+                  <div class="col-span-4 text-center"></div>
+                  <div class="col-span-4 text-center" style="color: #c79600">
+                    COLOR YELLOW
+                  </div>
+                  <div class="col-span-4 text-center"></div>
+                </div>
+
+                <div class="grid grid-cols-12 gap-2 my-3">
+                  <div class="col-span-4 text-left" style="color: #a0a400">
+                    COLOR CHARTREUSE
+                  </div>
+                  <div class="col-span-4 text-center" style="color: #5db100">
+                    COLOR GREEN
+                  </div>
+                  <div class="col-span-4 text-right" style="color: #00b479">
+                    COLOR SPRINGGREEN
+                  </div>
+                </div>
+
+                <div class="grid grid-cols-12 gap-2 my-3">
+                  <div class="col-span-4 text-center"></div>
+                  <div class="col-span-4 text-center" style="color: #00b1a2">
+                    COLOR CYAN
+                  </div>
+                  <div class="col-span-4 text-center"></div>
+                </div>
+
+                <div class="grid grid-cols-12 gap-2 my-3">
+                  <div class="col-span-4 text-left" style="color: #00aebf">
+                    COLOR DODGERBLUE
+                  </div>
+                  <div class="col-span-4 text-center" style="color: #00a8ec">
+                    COLOR BLUE
+                  </div>
+                  <div class="col-span-4 text-right" style="color: #9990ff">
+                    COLOR PURPLE
+                  </div>
+                </div>
+
+                <div class="grid grid-cols-12 gap-2 my-3">
+                  <div class="col-span-4 text-center"></div>
+                  <div class="col-span-4 text-center" style="color: #e569ff">
+                    COLOR MAGENTA
+                  </div>
+                  <div class="col-span-4 text-center"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="sm:col-12 col-sm-6 mt-1.5 col-span-12 sm:col-span-6">
+              <div
+                class="font-bold p-3 rounded-sm text-sm transition-all hover:shadow-2xl hover:shadow-[#00b1a277]"
+                style="background: #f0f3f5"
+              >
+                <div style="color: #0a0e0f">NO COLOR</div>
+
+                <br />
+
+                <div class="flex gap-2">
+                  <div style="color: #1f292e">COLOR BASE1</div>
+                  <div style="color: #3e525b">COLOR BASE2</div>
+                  <div style="color: #879fab">COLOR BASE3</div>
+                  <div style="color: #c3cfd5">COLOR BASE4</div>
+                </div>
+
+                <br />
+
+                <div class="grid grid-cols-12 gap-3">
+                  <div class="col-span-4 text-left" style="color: #c7009c">
+                    COLOR MAGENTA
+                  </div>
+                  <div class="col-span-4 text-center" style="color: #d2005f">
+                    COLOR RED
+                  </div>
+                  <div class="col-span-4 text-right" style="color: #ad5000">
+                    COLOR ORANGE
+                  </div>
+                </div>
+
+                <div class="grid grid-cols-12 gap-2 my-3">
+                  <div class="col-span-4 text-center"></div>
+                  <div class="col-span-4 text-center" style="color: #886500">
+                    COLOR YELLOW
+                  </div>
+                  <div class="col-span-4 text-center"></div>
+                </div>
+
+                <div class="grid grid-cols-12 gap-2 my-3">
+                  <div class="col-span-4 text-left" style="color: #5db100">
+                    COLOR CHARTREUSE
+                  </div>
+                  <div class="col-span-4 text-center" style="color: #3d7800">
+                    COLOR GREEN
+                  </div>
+                  <div class="col-span-4 text-right" style="color: #00b1a2">
+                    COLOR SPRINGGREEN
+                  </div>
+                </div>
+
+                <div class="grid grid-cols-12 gap-2 my-3">
+                  <div class="col-span-4 text-center"></div>
+                  <div class="col-span-4 text-center" style="color: #00786d">
+                    COLOR CYAN
+                  </div>
+                  <div class="col-span-4 text-center"></div>
+                </div>
+
+                <div class="grid grid-cols-12 gap-2 my-3">
+                  <div class="col-span-4 text-left" style="color: #007682">
+                    COLOR DODGERBLUE
+                  </div>
+                  <div class="col-span-4 text-center" style="color: #0072a1">
+                    COLOR BLUE
+                  </div>
+                  <div class="col-span-4 text-right" style="color: #6249ff">
+                    COLOR PURPLE
+                  </div>
+                </div>
+
+                <div class="grid grid-cols-12 gap-2 my-3">
+                  <div class="col-span-4 text-center"></div>
+                  <div class="col-span-4 text-center" style="color: #b700cf">
+                    COLOR MAGENTA
+                  </div>
+                  <div class="col-span-4 text-center"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="wrap">
+          <h3>Colorscheme</h3>
+
+          <h4>Dark</h4>
+          <div class="max-w-full overflow-auto">
+            <table>
+              <tr>
+                <td>
+                  <div
+                    class="color h-32 w-32"
+                    style="background: #0a0e0f"
+                  ></div>
+                  <div>
+                    <div>Background</div>
+                    <code>#0a0e0f</code>
+                  </div>
+                </td>
+                <td>
+                  <div
+                    class="color h-32 w-32"
+                    style="background: #f0f3f5"
+                  ></div>
+                  <div>
+                    <div>Foreground</div>
+                    <code>#F0F3F5</code>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div
+                    class="color h-32 w-32"
+                    style="background: #1f292e"
+                  ></div>
+                  <div>
+                    <div>Black</div>
+                    <code>#1f292e</code>
+                  </div>
+                </td>
+                <td>
+                  <div
+                    class="color h-32 w-32"
+                    style="background: #ff6c91"
+                  ></div>
+                  <div>
+                    <div>Red</div>
+                    <code>#ff6c91</code>
+                  </div>
+                </td>
+                <td>
+                  <div
+                    class="color h-32 w-32"
+                    style="background: #c59700"
+                  ></div>
+                  <div>
+                    <div>Yellow</div>
+                    <code>#c59700</code>
+                  </div>
+                </td>
+                <td>
+                  <div
+                    class="color h-32 w-32"
+                    style="background: #55b200"
+                  ></div>
+                  <div>
+                    <div>Green</div>
+                    <code>#55b200</code>
+                  </div>
+                </td>
+                <td>
+                  <div
+                    class="color h-32 w-32"
+                    style="background: #00b1a4"
+                  ></div>
+                  <div>
+                    <div>Cyan</div>
+                    <code>#00b1a4</code>
+                  </div>
+                </td>
+                <td>
+                  <div
+                    class="color h-32 w-32"
+                    style="background: #00a7f0"
+                  ></div>
+                  <div>
+                    <div>Blue</div>
+                    <code>#00a7f0</code>
+                  </div>
+                </td>
+                <td>
+                  <div
+                    class="color h-32 w-32"
+                    style="background: #ea65ff"
+                  ></div>
+                  <div>
+                    <div>Magenta</div>
+                    <code>#ea65ff</code>
+                  </div>
+                </td>
+                <td>
+                  <div
+                    class="color h-32 w-32"
+                    style="background: #879fab"
+                  ></div>
+                  <div>
+                    <div>Bright Gray</div>
+                    <code>#879fab</code>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="vertical-align: top">
+                  <div
+                    class="color h-32 w-32"
+                    style="background: #3e525b"
+                  ></div>
+                  <div>
+                    <div>Gray</div>
+                    <code>#3e525b</code>
+                  </div>
+                </td>
+                <td style="vertical-align: top">
+                  <div
+                    class="color h-32 w-32"
+                    style="background: #ff60cc"
+                  ></div>
+                  <div>
+                    <div>Bright Red</div>
+                    <div>Rose</div>
+                    <code>#ff60cc</code>
+                  </div>
+                </td>
+                <td style="vertical-align: top">
+                  <div
+                    class="color h-32 w-32"
+                    style="background: #f77b00"
+                  ></div>
+                  <div>
+                    <div>Bright Yellow</div>
+                    <div>Orange</div>
+                    <code>#f77b00</code>
+                  </div>
+                </td>
+                <td style="vertical-align: top">
+                  <div
+                    class="color h-32 w-32"
+                    style="background: #9da500"
+                  ></div>
+                  <div>
+                    <div>Bright Green</div>
+                    <div>Chartreuse</div>
+                    <code>#9da500</code>
+                  </div>
+                </td>
+                <td style="vertical-align: top">
+                  <div
+                    class="color h-32 w-32"
+                    style="background: #00b47d"
+                  ></div>
+                  <div>
+                    <div>Bright Cyan</div>
+                    <div>Springgreen</div>
+                    <code>#00b47d</code>
+                  </div>
+                </td>
+                <td style="vertical-align: top">
+                  <div
+                    class="color h-32 w-32"
+                    style="background: #00aec1"
+                  ></div>
+                  <div>
+                    <div>Bright Blue</div>
+                    <div>Dodgerblue</div>
+                    <code>#00aec1</code>
+                  </div>
+                </td>
+                <td style="vertical-align: top">
+                  <div
+                    class="color h-32 w-32"
+                    style="background: #9e8eff"
+                  ></div>
+                  <div>
+                    <div>Bright Magenta</div>
+                    <div>Purple</div>
+                    <code>#9e8eff</code>
+                  </div>
+                </td>
+                <td style="vertical-align: top">
+                  <div
+                    class="color h-32 w-32"
+                    style="background: #c3cfd5"
+                  ></div>
+                  <div>
+                    <div>White</div>
+                    <code>#c3cfd5</code>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <h4>Light</h4>
+          <div class="max-w-full overflow-auto">
+            <table>
+              <tr>
+                <td>
+                  <div
+                    class="color h-32 w-32"
+                    style="background: #f0f3f5"
+                  ></div>
+                  <div>
+                    <div>Background</div>
+                    <code>#F0F3F5</code>
+                  </div>
+                </td>
+                <td>
+                  <div
+                    class="color h-32 w-32"
+                    style="background: #0a0e0f"
+                  ></div>
+                  <div>
+                    <div>Foreground</div>
+                    <code>#0A0E0F</code>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div
+                    class="color h-32 w-32"
+                    style="background: #c3cfd5"
+                  ></div>
+                  <div>
+                    <div>Black</div>
+                    <code>#c3cfd5</code>
+                  </div>
+                </td>
+                <td>
+                  <div
+                    class="color h-32 w-32"
+                    style="background: #d3005a"
+                  ></div>
+                  <div>
+                    <div>Red</div>
+                    <code>#d3005a</code>
+                  </div>
+                </td>
+                <td>
+                  <div
+                    class="color h-32 w-32"
+                    style="background: #866600"
+                  ></div>
+                  <div>
+                    <div>Yellow</div>
+                    <code>#866600</code>
+                  </div>
+                </td>
+                <td>
+                  <div
+                    class="color h-32 w-32"
+                    style="background: #387900"
+                  ></div>
+                  <div>
+                    <div>Green</div>
+                    <code>#387900</code>
+                  </div>
+                </td>
+                <td>
+                  <div
+                    class="color h-32 w-32"
+                    style="background: #00786f"
+                  ></div>
+                  <div>
+                    <div>Cyan</div>
+                    <code>#00786f</code>
+                  </div>
+                </td>
+                <td>
+                  <div
+                    class="color h-32 w-32"
+                    style="background: #0071a4"
+                  ></div>
+                  <div>
+                    <div>Blue</div>
+                    <code>#0071a4</code>
+                  </div>
+                </td>
+                <td>
+                  <div
+                    class="color h-32 w-32"
+                    style="background: #b800cc"
+                  ></div>
+                  <div>
+                    <div>Magenta</div>
+                    <code>#b800cc</code>
+                  </div>
+                </td>
+                <td>
+                  <div
+                    class="color h-32 w-32"
+                    style="background: #3e525b"
+                  ></div>
+                  <div>
+                    <div>Bright Gray</div>
+                    <code>#3E525B</code>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="vertical-align: top">
+                  <div
+                    class="color h-32 w-32"
+                    style="background: #879fab"
+                  ></div>
+                  <div>
+                    <div>Gray</div>
+                    <code>#879fab</code>
+                  </div>
+                </td>
+                <td style="vertical-align: top">
+                  <div
+                    class="color h-32 w-32"
+                    style="background: #c80099"
+                  ></div>
+                  <div>
+                    <div>Bright Red</div>
+                    <div>Rose</div>
+                    <code>#c80099</code>
+                  </div>
+                </td>
+                <td style="vertical-align: top">
+                  <div
+                    class="color h-32 w-32"
+                    style="background: #a95200"
+                  ></div>
+                  <div>
+                    <div>Bright Yellow</div>
+                    <div>Orange</div>
+                    <code>#a95200</code>
+                  </div>
+                </td>
+                <td style="vertical-align: top">
+                  <div
+                    class="color h-32 w-32"
+                    style="background: #6a6f00"
+                  ></div>
+                  <div>
+                    <div>Bright Green</div>
+                    <div>Chartreuse</div>
+                    <code>#6a6f00</code>
+                  </div>
+                </td>
+                <td style="vertical-align: top">
+                  <div
+                    class="color h-32 w-32"
+                    style="background: #007a53"
+                  ></div>
+                  <div>
+                    <div>Bright Cyan</div>
+                    <div>Springgreen</div>
+                    <code>#007a53</code>
+                  </div>
+                </td>
+                <td style="vertical-align: top">
+                  <div
+                    class="color h-32 w-32"
+                    style="background: #007684"
+                  ></div>
+                  <div>
+                    <div>Bright Blue</div>
+                    <div>Dodgerblue</div>
+                    <code>#007684</code>
+                  </div>
+                </td>
+                <td style="vertical-align: top">
+                  <div
+                    class="color h-32 w-32"
+                    style="background: #6c44ff"
+                  ></div>
+                  <div>
+                    <div>Bright Magenta</div>
+                    <div>Purple</div>
+                    <code>#6c44ff</code>
+                  </div>
+                </td>
+                <td style="vertical-align: top">
+                  <div
+                    class="color h-32 w-32"
+                    style="background: #1f292e"
+                  ></div>
+                  <div>
+                    <div>White</div>
+                    <code>#1f292e</code>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="install">
+        <div class="wrap">
+          <h3>Install</h3>
+
+          <blockquote>
+            Depending on your operating system and your terminal emulator the
+            theme installation could be slightly different, choose the platform
+            you're using.
+          </blockquote>
+
+          <dl class="py-4">
+            <dt class="font-bold">Windows Terminal</dt>
+            <dd class="pl-2 mb-1">Copy content from<code>./windows-terminal/settings.json</code> in <code>%APPDATA%\Windows.Terminal\Config\settings.json</code></dd>
+            <dt class="font-bold">Tilix</dt>
+            <dd class="pl-2 mb-1">Copy file <code>./Tilix/Neutral*.json</code> in <code>~/.config/tilix/schemes</code></dd>
+            <dt class="font-bold">Termux</dt>
+            <dd class="pl-2 mb-1">Copy file <code>./termux/colors.properties</code> in <code>~/.termux</code></dd>
+          </dl>
+        </div>
+      </section>
+    </main>
+
+    <footer
+      class="text-center px-2 flex flex-col text-xl py-8"
+      style="background-color: #c3cfd5"
+    >
+      <div>
+        <span class="madeby">Made by</span>
+        <a
+          class="no-underline"
+          style="color: #2979ff"
+          href="https://github.com/zpm-zsh"
+          >zpm-zsh</a
+        >
+      </div>
+    </footer>
+  </body>
+</html>
