@@ -33,7 +33,7 @@ Compatible with:
   "brightGreen": "#9da500",  // CHARTREUSE
   "brightCyan": "#00b47d",   // SPRINGGREEN
   "brightBlue": "#00aec1",   // DODGERBLUE
-  "brightViolet": "#9e8eff"  // PURPLE
+  "brightViolet": "#9e8eff"  // VIOLET
 }
 ```
 
@@ -62,6 +62,6 @@ Compatible with:
     "brightGreen": "#6a6f00",  // CHARTREUSE
     "brightCyan": "#007a53",   //SPRINGGREEN
     "brightBlue": "#007684",   //DODGERBLUE
-    "brightPurple": "#6c44ff", // PURPLE
+    "brightPurple": "#6c44ff", // VIOLET
 }
 ```
