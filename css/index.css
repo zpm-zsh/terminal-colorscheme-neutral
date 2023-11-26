@@ -544,6 +544,10 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -554,10 +558,6 @@ video {
 
 .mt-1\.5 {
   margin-top: 0.375rem;
-}
-
-.mb-1 {
-  margin-bottom: 0.25rem;
 }
 
 .inline-block {
@@ -620,22 +620,9 @@ video {
   border-radius: 0.125rem;
 }
 
-.bg-purple-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(126 34 206 / var(--tw-bg-opacity));
-}
-
 .bg-violet-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(109 40 217 / var(--tw-bg-opacity));
-}
-
-.p-2 {
-  padding: 0.5rem;
-}
-
-.p-2\.5 {
-  padding: 0.625rem;
 }
 
 .p-3 {
@@ -662,6 +649,11 @@ video {
   padding-bottom: 0.625rem;
 }
 
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -670,11 +662,6 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 .pl-2 {
@@ -713,12 +700,16 @@ video {
   line-height: 1.75rem;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
 .font-medium {
   font-weight: 500;
 }
 
-.font-bold {
-  font-weight: 700;
+.italic {
+  font-style: italic;
 }
 
 .text-white {
@@ -746,11 +737,6 @@ video {
 
 .terminal {
   font-family: 'Ubuntu Mono', monospace;
-}
-
-.hover\:bg-purple-800:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(107 33 168 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-violet-800:hover {
