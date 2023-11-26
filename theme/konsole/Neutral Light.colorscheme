@@ -1,0 +1,102 @@
+
+
+    [Background]
+    Color=240,243,245
+
+    [BackgroundFaint]
+    Color=240,243,245
+
+    [BackgroundIntense]
+    Color=240,243,245
+
+    [Color0]
+    Color=195,207,213
+
+    [Color0Faint]
+    Color=195,207,213
+
+    [Color0Intense]
+    Color=135,159,171
+
+    [Color1]
+    Color=211,0,90
+
+    [Color1Faint]
+    Color=211,0,90
+
+    [Color1Intense]
+    Color=200,0,153
+
+    [Color2]
+    Color=56,121,0
+
+    [Color2Faint]
+    Color=56,121,0
+
+    [Color2Intense]
+    Color=106,111,0
+
+    [Color3]
+    Color=134,102,0
+
+    [Color3Faint]
+    Color=134,102,0
+
+    [Color3Intense]
+    Color=169,82,0
+
+    [Color4]
+    Color=0,113,164
+
+    [Color4Faint]
+    Color=0,113,164
+
+    [Color4Intense]
+    Color=0,118,132
+
+    [Color5]
+    Color=184,0,204
+
+    [Color5Faint]
+    Color=184,0,204
+
+    [Color5Intense]
+    Color=108,68,255
+
+    [Color6]
+    Color=0,120,111
+
+    [Color6Faint]
+    Color=0,120,111
+
+    [Color6Intense]
+    Color=0,122,83
+
+    [Color7]
+    Color=62,82,91
+
+    [Color7Faint]
+    Color=62,82,91
+
+    [Color7Intense]
+    Color=31,41,46
+
+    [Foreground]
+    Color=10,14,15
+
+    [ForegroundFaint]
+    Color=10,14,15
+
+    [ForegroundIntense]
+    Color=10,14,15
+
+    [General]
+    Anchor=0.5,0.5
+    Blur=false
+    ColorRandomization=false
+    Description=Neutral Light
+    FillStyle=Tile
+    Opacity=1
+    Wallpaper=
+    WallpaperFlipType=NoFlip
+    WallpaperOpacity=1

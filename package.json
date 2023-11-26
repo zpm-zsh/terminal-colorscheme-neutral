@@ -1,14 +1,12 @@
 {
-  "devDependencies": {
-    "tailwindcss": "^3.3.2"
-  },
   "name": "terminal-colorscheme-neutral",
   "description": "Colorscheme for terminal emulators with neutral, readable colors",
   "version": "1.0.0",
   "main": "tailwind.config.js",
   "scripts": {
     "dev": "npx tailwindcss -i ./css/src.css -o ./css/index.css --watch",
-    "build": "npx tailwindcss -i ./css/src.css -o ./css/index.css"
+    "build": "npx tailwindcss -i ./css/src.css -o ./css/index.css",
+    "themes": "node ./scripts/build-themes.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/zpm-zsh/terminal-colorscheme-neutral/issues"
   },
-  "homepage": "https://github.com/zpm-zsh/terminal-colorscheme-neutral#readme"
+  "homepage": "https://github.com/zpm-zsh/terminal-colorscheme-neutral#readme",
+  "dependencies": {
+    "color": "^4.2.3",
+    "hex-rgb": "^5.0.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
 }

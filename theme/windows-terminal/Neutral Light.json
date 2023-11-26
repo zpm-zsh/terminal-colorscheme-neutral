@@ -1,0 +1,23 @@
+{
+    "background": "#F0F3F5",
+    "black": "#C3CFD5",
+    "blue": "#0071A4",
+    "brightBlack": "#879FAB",
+    "brightBlue": "#007684",
+    "brightCyan": "#007A53",
+    "brightGreen": "#6A6F00",
+    "brightPurple": "#6C44FF",
+    "brightRed": "#C80099",
+    "brightWhite": "#1F292E",
+    "brightYellow": "#A95200",
+    "cursorColor": "#C7AC30",
+    "cyan": "#00786F",
+    "foreground": "#0A0E0F",
+    "green": "#387900",
+    "name": "Neutral Light",
+    "purple": "#B800CC",
+    "red": "#D3005A",
+    "selectionBackground": "#B1C2CD",
+    "white": "#3E525B",
+    "yellow": "undefined"
+}

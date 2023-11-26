@@ -7,61 +7,70 @@ Compatible with:
 - Windows Terminal
 - Tilix
 - Termux
+- Konsole
+- VScode
+- iTerm2
 
 ### Dark Variant
 
-![Neutral Colors](./neutral-colors.png)
+![Neutral Colors](./images/neutral-colors.png)
 
 ```json
 {
   "foreground": "#F0F3F5",
-  "brightWhite": "#c3cfd5", // COLOR BASE1
-  "white": "#879fab", // COLOR BASE2
-  "brightBlack": "#3E525B", // COLOR BASE3
-  "black": "#1f292e", // COLOR BASE4
   "background": "#0A0E0F",
 
-  "red": "#ff6c91",
-  "yellow": "#c59700",
-  "green": "#55b200",
-  "cyan": "#00b1a4",
-  "blue": "#00a7f0",
-  "violet": "#ea65ff",
+  "black": "#1F292E",
+  "red": "#FF6C91",
+  "yellow": "#C59700",
+  "green": "#55B200",
+  "cyan": "#00B1A4",
+  "blue": "#00A7F0",
+  "purple": "#EA65FF",
+  "white": "#879FAB",
 
-  "brightRed": "#ff60cc",    // MAGENTA
-  "brightYellow": "#f77b00", // ORANGE
-  "brightGreen": "#9da500",  // CHARTREUSE
-  "brightCyan": "#00b47d",   // SPRINGGREEN
-  "brightBlue": "#00aec1",   // DODGERBLUE
-  "brightViolet": "#9e8eff"  // VIOLET
+  "brightBlack": "#3E525B",
+  "brightRed": "#FF60CC",
+  "brightYellow": "#F77B00",
+  "brightGreen": "#9DA500",
+  "brightCyan": "#00B47D",
+  "brightBlue": "#00AEC1",
+  "brightPurple": "#9E8EFF",
+  "brightWhite": "#C3CFD5",
+
+  "cursorColor": "#C7AC30",
+  "selectionBackground": "#2B3940"
 }
 ```
 
 ### Light Variant
 
-![Neutral Light Colors](./neutral-colors-light.png)
+![Neutral Light Colors](./images/neutral-colors-light.png)
 
 ```json
 {
-    "foreground": "#0A0E0F",
-    "brightWhite": "#1f292e", // COLOR BASE1
-    "white": "#3E525B", // COLOR BASE2
-    "brightBlack": "#879fab", // COLOR BASE3
-    "black": "#c3cfd5", // COLOR BASE4
-    "background": "#F0F3F5",
+  "foreground": "#0A0E0F",
+  "background": "#F0F3F5",
 
-    "red": "#d3005a",
-    "yellow": "#866600",
-    "green": "#387900",
-    "cyan": "#00786f",
-    "blue": "#0071a4",
-    "purple": "#b800cc",
+  "black": "#C3CFD5",
+  "red": "#D3005A",
+  "yellow": "#866600",
+  "green": "#387900",
+  "cyan": "#00786F",
+  "blue": "#0071A4",
+  "purple": "#B800CC",
+  "white": "#3E525B",
 
-    "brightRed": "#c80099",    // MAGENTA
-    "brightYellow": "#a95200", // ORANGE
-    "brightGreen": "#6a6f00",  // CHARTREUSE
-    "brightCyan": "#007a53",   //SPRINGGREEN
-    "brightBlue": "#007684",   //DODGERBLUE
-    "brightPurple": "#6c44ff", // VIOLET
+  "brightBlack": "#879FAB",
+  "brightRed": "#C80099",
+  "brightYellow": "#A95200",
+  "brightCyan": "#007A53",
+  "brightBlue": "#007684",
+  "brightGreen": "#6A6F00",
+  "brightPurple": "#6C44FF",
+  "brightWhite": "#1F292E",
+
+  "cursorColor": "#C7AC30",
+  "selectionBackground": "#B1C2CD"
 }
 ```

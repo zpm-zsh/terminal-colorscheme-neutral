@@ -69,12 +69,42 @@
         padding: 1rem;
       }
 
+      .color-alias {
+        color: #433;
+      }
+
       a:hover {
         text-decoration: underline;
       }
 
       p {
         line-height: 1.5em;
+      }
+
+      code {
+        padding: 0.2em 0.4em;
+        margin: 0;
+        font-size: 85%;
+        white-space: break-spaces;
+        background-color: rgba(175, 184, 193, 0.2);
+        border-radius: 6px;
+      }
+
+      dl {
+        padding: 0;
+      }
+
+      dl dt {
+        padding: 0;
+        margin-top: 16px;
+        font-size: 1em;
+        font-style: italic;
+        font-weight: 600;
+      }
+
+      dl dd {
+        padding: 0 16px;
+        margin-bottom: 16px;
       }
 
       @media (max-width: 568px) {
@@ -146,7 +176,7 @@
 
                 <div class="grid grid-cols-12 gap-2">
                   <div class="col-span-4 text-left" style="color: #ff5fd0">
-                    COLOR ROSE
+                    COLOR PURPLE
                   </div>
                   <div class="col-span-4 text-center" style="color: #ff6b95">
                     COLOR RED
@@ -186,7 +216,7 @@
 
                 <div class="grid grid-cols-12 gap-2 my-3">
                   <div class="col-span-4 text-left" style="color: #00aebf">
-                    COLOR DODGERBLUE
+                    COLOR AZURE
                   </div>
                   <div class="col-span-4 text-center" style="color: #00a8ec">
                     COLOR BLUE
@@ -266,7 +296,7 @@
 
                 <div class="grid grid-cols-12 gap-2 my-3">
                   <div class="col-span-4 text-left" style="color: #007682">
-                    COLOR DODGERBLUE
+                    COLOR AZURE
                   </div>
                   <div class="col-span-4 text-center" style="color: #0072a1">
                     COLOR BLUE
@@ -418,7 +448,7 @@
                   ></div>
                   <div>
                     <div>Bright Red</div>
-                    <div>Rose</div>
+                    <div class="color-alias">Purple</div>
                     <code>#ff60cc</code>
                   </div>
                 </td>
@@ -429,7 +459,7 @@
                   ></div>
                   <div>
                     <div>Bright Yellow</div>
-                    <div>Orange</div>
+                    <div class="color-alias">Orange</div>
                     <code>#f77b00</code>
                   </div>
                 </td>
@@ -440,7 +470,7 @@
                   ></div>
                   <div>
                     <div>Bright Green</div>
-                    <div>Chartreuse</div>
+                    <div class="color-alias">Chartreuse</div>
                     <code>#9da500</code>
                   </div>
                 </td>
@@ -451,7 +481,7 @@
                   ></div>
                   <div>
                     <div>Bright Cyan</div>
-                    <div>Springgreen</div>
+                    <div class="color-alias">Springgreen</div>
                     <code>#00b47d</code>
                   </div>
                 </td>
@@ -462,7 +492,7 @@
                   ></div>
                   <div>
                     <div>Bright Blue</div>
-                    <div>Dodgerblue</div>
+                    <div class="color-alias">Azure</div>
                     <code>#00aec1</code>
                   </div>
                 </td>
@@ -473,7 +503,7 @@
                   ></div>
                   <div>
                     <div>Bright Magenta</div>
-                    <div>Violet</div>
+                    <div class="color-alias">Violet</div>
                     <code>#9e8eff</code>
                   </div>
                 </td>
@@ -616,7 +646,7 @@
                   ></div>
                   <div>
                     <div>Bright Red</div>
-                    <div>Rose</div>
+                    <div>Purple</div>
                     <code>#c80099</code>
                   </div>
                 </td>
@@ -660,7 +690,7 @@
                   ></div>
                   <div>
                     <div>Bright Blue</div>
-                    <div>Dodgerblue</div>
+                    <div>Azure</div>
                     <code>#007684</code>
                   </div>
                 </td>
@@ -704,18 +734,44 @@
           <dl class="py-4">
             <dt class="font-bold">Windows Terminal</dt>
             <dd class="pl-2 mb-1">
-              Copy content from<code>./windows-terminal/settings.json</code> in
-              <code>%APPDATA%\Windows.Terminal\Config\settings.json</code>
+              Copy content from<code
+                >./theme/windows-terminal/Neutral*.json</code
+              >
+              into your config file
             </dd>
+
             <dt class="font-bold">Tilix</dt>
             <dd class="pl-2 mb-1">
-              Copy file <code>./Tilix/Neutral*.json</code> in
+              Copy file <code>./theme/tilix/Neutral*.json</code> in
               <code>~/.config/tilix/schemes</code>
             </dd>
+
+            <dt class="font-bold">Konsole</dt>
+            <dd class="pl-2 mb-1">
+              Copy file <code>./theme/konsole/Neutral*.colorscheme</code> in
+              <code>~/.local/share/konsole/</code>
+            </dd>
+
             <dt class="font-bold">Termux</dt>
             <dd class="pl-2 mb-1">
-              Copy file <code>./termux/colors.properties</code> in
-              <code>~/.termux</code>
+              Copy file content from one file<code
+                >./theme/termux/*.properties</code
+              >
+              in
+              <code>~/.termux/colors.properties</code>
+            </dd>
+
+            <dt class="font-bold">iTerm2</dt>
+            <dd class="pl-2 mb-1">
+              Import file <code>./theme/iterm/*.properties</code>
+            </dd>
+
+            <dt class="font-bold">VScode</dt>
+            <dd class="pl-2 mb-1">
+              Copy file content from one file<code
+                >./theme/vscode/*.properties</code
+              >
+              VScode config
             </dd>
           </dl>
         </div>
